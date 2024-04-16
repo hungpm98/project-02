@@ -57,23 +57,22 @@ html {
 }
 
 body {
-  display: flex;
-  justify-content: center;
   font-family: Sora, sans-serif;
   font-size: 16px;
 }
 
 .container {
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
   width: 1400px;
   height: 7007px;
   background: #131517;
 }
 
 .header {
+  display: inline-block;
   width: 1144px;
   height: 1138px;
+  margin: 40px 128px;
   background-color: #131517;
 }
 
@@ -195,7 +194,7 @@ body {
   width: 925px;
   height: 512px;
   border-radius: 8px 8px 0px 0px;
-  background: #14181B;
+  background: #131517;
 }
 .header__bottom .bottom-dashboard {
   position: relative;
@@ -424,7 +423,7 @@ body {
 }
 .header__bottom .bottom-collection .collection-title p {
   margin-left: 25px;
-  color: #F9F9F9;
+  color: #f9f9f9;
   font-size: 1.4rem;
   width: 84px;
   height: 18px;
@@ -458,7 +457,7 @@ body {
   width: 51px;
   height: 18px;
   font-size: 1.4rem;
-  color: #F9F9F9;
+  color: #f9f9f9;
 }
 .header__bottom .bottom-collection .collection__content-top .content-title p:nth-child(2) {
   width: 110px;
@@ -504,7 +503,7 @@ body {
   width: 51px;
   height: 18px;
   font-size: 1.4rem;
-  color: #F9F9F9;
+  color: #f9f9f9;
 }
 .header__bottom .bottom-collection .collection__content-body .content-title p:nth-child(2) {
   width: 110px;
@@ -550,7 +549,7 @@ body {
   width: 51px;
   height: 18px;
   font-size: 1.4rem;
-  color: #F9F9F9;
+  color: #f9f9f9;
 }
 .header__bottom .bottom-collection .collection__content-bottom .content-title p:nth-child(2) {
   width: 110px;
@@ -567,6 +566,21 @@ body {
   font-size: 1rem;
   color: #858B93;
   margin-left: 8px;
+}
+
+.service {
+  margin: 100px 152px;
+  width: 1096px;
+  height: 331px;
+  border-radius: 27px;
+  background: #282C30;
+}
+.service .service__card {
+  display: inline-block;
+  width: 996px;
+  height: 207px;
+  margin: 71px 50px 53px;
+  background: #08cc12;
 }
 
 /*# sourceMappingURL=main.css.map */

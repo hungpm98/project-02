@@ -7,33 +7,37 @@ html {
 }
 
 body {
-    display: flex;
-    justify-content: center;
     font-family: Sora,sans-serif;
     font-size: 16px;
 }
 
+$primary-color: #131517;
+$text-color: #f9f9f9;
+
 .container {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
     width: 1400px;
     height: 7007px;
-    background: #131517;
+    background: $primary-color;
 }
+
+
 
 //===== Header ======
 
 .header {
+    display: inline-block;
     width: 1144px;
     height: 1138px;
-    background-color: #131517;
+    margin: 40px 128px;
+    background-color: $primary-color;
 }
 
 .header__top {
     display: flex;
     width: 1144px;
     height: 40px;
-    background-color: #131517;
+    background-color: $primary-color;
 
     .header__top-logo {
         margin-right: 274px;
@@ -46,7 +50,7 @@ body {
         width: 372px;
         height: 24px;
         margin-right: 302px;
-        background-color: #131517;
+        background-color: $primary-color;
 
         .nav-item {
             color: #858B93;
@@ -55,7 +59,7 @@ body {
         }
         .nav-item:nth-child(1){
             position: relative;
-            color: #f9f9f9;
+            color: $text-color;
         }
 
         .nav-item:nth-child(1)::before{
@@ -71,9 +75,9 @@ body {
     .header__top-action {
         width: 100px;
         height: 40px;
-        border: 1px  solid #131517;
+        border: 1px  solid $primary-color;
         border-radius: 8px;
-        background-color: #131517;
+        background-color: $primary-color;
 
         .action-item{
             width: 57px;
@@ -92,10 +96,10 @@ body {
 .header__title {
     margin: 150px 180px 0px;
     width: 783px;
-    background: #131517;
+    background: $primary-color;
 
     h1 {
-        color: #f9f9f9;
+        color: $text-color;
         text-align: center;
         font-size: 6rem;
         font-weight: 700;
@@ -113,7 +117,7 @@ body {
 .header__sub {
     width: 447px;
     margin: 34px 348px 0px;
-    background: #131517;
+    background: $primary-color;
 
     .sub-item {
         color: #858B93;
@@ -129,7 +133,7 @@ body {
     width: 420px;
     height: 54px;
     margin: 44px 362px 0px;
-    background: #131517;
+    background: $primary-color;
 
     .info-btn {
         display: flex;
@@ -141,7 +145,7 @@ body {
         background: #282C30;
 
         p{
-            color: #f9f9f9;
+            color: $text-color;
             font-weight: 400;
             line-height: 2.6rem;
         }
@@ -157,7 +161,7 @@ body {
     width: 925px;
     height: 512px;
     border-radius: 8px 8px 0px 0px;
-    background: #14181B;
+    background: $primary-color;
 
     .bottom-dashboard {
         position: relative;
@@ -191,7 +195,7 @@ body {
                 height: 22px;
 
                 p {
-                    color: #f9f9f9;
+                    color: $text-color;
                     font-size: 1.4rem;
                 }
             }
@@ -237,7 +241,7 @@ body {
 
             .subtop-end {
                 font-size: 1.4rem;
-                color: #f9f9f9;
+                color: $text-color;
                 width: 73px;
                 height: 18px;
             }
@@ -333,7 +337,7 @@ body {
             }
 
             .sidebar-title {
-                color: #f9f9f9;
+                color: $text-color;
                 font-size: 1.4rem;
                 margin-top: 20px;
                 margin-left: 16px;
@@ -416,7 +420,7 @@ body {
             
             p {
                 margin-left: 25px;
-                color: #F9F9F9;
+                color: $text-color;
                 font-size: 1.4rem;
                 width: 84px;
                 height: 18px;
@@ -455,7 +459,7 @@ body {
                     width: 51px;
                     height: 18px;
                     font-size: 1.4rem;
-                    color: #F9F9F9;
+                    color: $text-color;
                 }
 
                 p:nth-child(2){
@@ -510,7 +514,7 @@ body {
                     width: 51px;
                     height: 18px;
                     font-size: 1.4rem;
-                    color: #F9F9F9;
+                    color: $text-color;
                 }
 
                 p:nth-child(2){
@@ -565,7 +569,7 @@ body {
                     width: 51px;
                     height: 18px;
                     font-size: 1.4rem;
-                    color: #F9F9F9;
+                    color: $text-color;
                 }
 
                 p:nth-child(2){
@@ -592,5 +596,23 @@ body {
     }
 
    
+}
+
+// ===== Service =====
+
+.service {
+    margin: 100px 152px;
+    width: 1096px;
+    height: 331px;
+    border-radius: 27px;
+    background: #282C30;
+
+    .service__card {
+        display: inline-block;
+        width: 996px;
+        height: 207px;
+        margin: 71px 50px 53px;
+        background: #08cc12;
+    }
 }
    
