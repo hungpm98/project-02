@@ -1,0 +1,253 @@
+// ===== reponsive
+@media (max-width: 374.98px) { 
+  .header {
+  .header__top {
+       display: none;
+  }
+  .header__title {
+    position: relative;
+    left: 25%;
+    width: 279px;
+    height: 114px;
+   
+
+    h1 {
+      line-height: normal;
+      font-size: 3rem;
+    }
+    
+  }
+  .header__sub {
+    display: none;
+  }
+  .header__info {
+    position: relative;
+    left: 15%;
+    width: 143px;
+    height: 96px;
+    display: block;
+    margin-top: 70px;
+
+    .info-btn {
+      width: 143px;
+      height: 39px;
+      font-size: 1.2rem;
+
+      &:nth-child(1) {
+        margin-bottom: 18px;
+      }
+    }
+  }
+  
+  }
+
+  .service {
+    position: relative;
+    margin-top: -60px;
+    left: 30%;
+    width: 319px;
+    height: 816px;
+
+    .service__card {
+      width: 208px;
+      height: 816px;
+      flex-direction: column;
+
+      .card__item {
+        width: 208px;
+        height: 189px;
+        margin: 0;
+      }
+
+      .service__dashline {
+        width: 200px;
+        margin: 23px 61px;
+      }
+    }
+  }
+
+  .task {
+    position: relative;
+    left: 10%;
+    width: 350px;
+    height: 950px;
+    flex-direction: column;
+
+    .task__all {
+      margin-left: 0px;
+      right: 15%;
+    }
+    .task__shape {
+      position: relative;
+      right: 10%;
+      top: 35%;
+    }
+  }
+
+  .features {
+    position: relative;
+    top: 4%;
+    left: 40%;
+    width: 319px;
+    height: 1210px;
+    margin-top: 80px;
+    flex-direction: column;
+
+    .task__chart {
+      width: 280px;
+      right: 23%;
+      background: none;
+      margin-bottom: 75px;
+
+      .dash-line {
+        height: 216px;
+        left: 0;
+        justify-content: space-evenly;
+        bottom: 40%;
+
+        img {
+          width: 5px;
+        }
+
+      }
+
+      .blur-shape {
+        width: 152px;
+        height: 152px;
+      }
+      .time {
+        width: 202px;
+        height: 24px;
+      }
+
+      .wireframe-btn {
+        width: 137px;
+        height: 35px;
+        right: -20%;
+        top: 35%;
+
+        p {
+          width: 117px;
+          font-size: 0.8rem;
+        }
+      }
+
+      .lending-btn {
+        width: 126px;
+        height: 35px;
+        top: 45%;
+        left: 15%;
+        
+        p {
+          width: 101px;
+          height: 24px;
+          font-size: 0.8rem;
+        }
+      }
+
+      .ui-btn {
+        width: 116px;
+        height: 35px;
+        top: 30px;
+        left: 10px;
+
+        p {
+          width: 61px;
+          height: 24px;
+          font-size: 0.8rem;
+        }
+      }
+
+      .union-btn {
+        left: 35%;
+        img {
+          width: 82px;
+          height: 37px;
+        }
+        .union-text {
+          width: 80px;
+          height: 18px;
+        }
+      }
+    }
+
+    .features__content {
+      width: 319px;
+      .features__content-title {
+        width: 235px;
+        height: 114px;
+        line-height: normal;
+
+        h2 {
+          font-size: 3rem;
+        }
+      }
+
+      .features__content-details {
+        width: 319px;
+        .details__card-top {
+          margin-left: 20px;
+          height: 200px;
+          flex-direction: column;
+        }
+
+        .details__card-bot {
+          margin-left: 20px;
+          flex-direction: column;
+          .bot__card:nth-child(2) {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .about {  
+    position: relative;
+    top: 5%;
+    .about__head {
+      .about__head-title {
+        position: relative;
+        left: 40%;
+        width: 209px;
+        height: 120px;
+        margin-left: 0;
+
+        p {
+          font-size: 3rem;
+        }
+      }
+      .about__head-sub {
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+        top: 35%;
+        left: 35%;
+        width: 268px;
+        height: 84px;
+      }
+      .about__head-btn {
+        position: relative;
+        margin-top: 0;
+        top: 50%;
+        left: 43%;
+        width: 169px;
+        height: 260px;
+        flex-direction: column;
+        justify-content: space-around;                
+      }
+    }
+
+    .about__task {
+        position: relative;
+        top: 40%;
+    }
+  }
+
+  .featsub {
+    position: relative;
+    top: 10%;
+  }
+
+
+}
