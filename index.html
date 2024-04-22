@@ -41,49 +41,79 @@
   <body>
     <div class="container">
       <!-- Header -->
-      <div class="header">
-        <!-- Header top -->
-        <div class="header__top">
-          <div class="header__top-logo">
-            <img src="./assets/img/logo.svg" alt="Task Manager" />
-          </div>
-          <div class="header__top-navigation">
+
+      <div class="header__top">
+        <div class="header__logo">
+          <img src="./assets/img/logo.svg" alt="Task Manager" />
+        </div>
+
+        <div class="header__action">
+          <div class="header__navigation">
             <div class="nav-item">Home</div>
             <div class="nav-item">Products</div>
             <div class="nav-item">Guidlines</div>
             <div class="nav-item">Review</div>
           </div>
-          <div class="header__top-action">
-            <div class="action-item">Sign In</div>
+          <div class="header__btn">
+            <button>Sign In</button>
           </div>
         </div>
 
+        <div class="header__menu">
+          <img src="./assets/img/menu.svg" alt="" />
+        </div>
+      </div>
+      <div class="header">
+        <!-- Header top -->
+
         <!-- Header Title -->
         <div class="header__title">
-          <h1>Make <strong>Management</strong> Way More Easier Than Ever</h1>
+          <h1>
+            Make <strong>Management</strong> Way <br />
+            More Easier Than Ever
+          </h1>
         </div>
 
         <!-- Header Sub Title -->
         <div class="header__sub">
-          <p class="sub-item">
-            The online collaborative management platform to bring more
+          <p>
+            The online collaborative management platform to <br />bring more
             efficiency and performace
           </p>
         </div>
 
         <!--Header Info -->
         <div class="header__info">
-          <div class="info-btn">
-            <p>Request Demo</p>
+          <div class="info-btn action">
+            <button>Request Demo</button>
           </div>
           <div class="info-btn">
-            <p>Contact Us</p>
+            <button>Contact Us</button>
           </div>
         </div>
 
         <!-- Header Bottom -->
         <div class="header__bottom">
           <div class="bottom-dashboard">
+            <div class="dashboard-sidebar">
+              <div class="sidebar-top">
+                <img src="./assets/img/3line.svg" alt="" />
+                <img src="./assets/img/dashboardicon.svg" alt="" />
+                <p>Dashboard</p>
+              </div>
+
+              <div class="sidebar-title">
+                <p>Collections</p>
+              </div>
+              <div class="sidebar-body">
+                <span></span>
+                <p>School</p>
+              </div>
+              <div class="sidebar-bottom">
+                <span></span>
+                <p>Personal</p>
+              </div>
+            </div>
             <div class="dashboard-main">
               <div class="dashboard-top">
                 <div class="top-start">
@@ -146,26 +176,6 @@
                 </div>
               </div>
             </div>
-
-            <div class="dashboard-sidebar">
-              <div class="sidebar-top">
-                <img src="./assets/img/3line.svg" alt="" />
-                <img src="./assets/img/dashboardicon.svg" alt="" />
-                <p>Dashboard</p>
-              </div>
-
-              <div class="sidebar-title">
-                <p>Collections</p>
-              </div>
-              <div class="sidebar-body">
-                <span></span>
-                <p>School</p>
-              </div>
-              <div class="sidebar-bottom">
-                <span></span>
-                <p>Personal</p>
-              </div>
-            </div>
           </div>
           <div class="bottom-collection">
             <div class="collection-title">
@@ -219,47 +229,37 @@
       </div>
       <!-- Service -->
       <div class="service">
-        <div class="service__card">
-          <div class="card__item">
-            <div class="card__item-icon">
-              <img src="./assets/img/EGreen.svg" alt="" />
-              <img src="./assets/img/Reporticon.svg" alt="" />
-            </div>
-            <div class="card__item-text">
-              <p>Structured Reports</p>
-              <p>Sed rhoncus sit sed tellus donec lorem lectus nunc, ornare</p>
-            </div>
+        <div class="card__item">
+          <div class="card__item-icon">
+            <img src="./assets/img/EGreen.svg" alt="" />
+            <img src="./assets/img/Reporticon.svg" alt="" />
           </div>
-          <img
-            class="service__dashline"
-            src="./assets/img/dashline.svg"
-            alt=""
-          />
-          <div class="card__item">
-            <div class="card__item-icon">
-              <img src="./assets/img/EOrange.svg" alt="" />
-              <img src="./assets/img/cloudicon.svg" alt="" />
-            </div>
-            <div class="card__item-text">
-              <p>Cloud System</p>
-              <p>Sed rhoncus sit sed tellus donec lorem lectus nunc, ornare</p>
-            </div>
+          <div class="card__item-text">
+            <p>Structured Reports</p>
+            <p>Sed rhoncus sit sed tellus donec lorem lectus nunc, ornare</p>
           </div>
-          <img
-            class="service__dashline"
-            src="./assets/img/dashline.svg"
-            alt=""
-          />
+        </div>
+        <img class="service__dashline" src="./assets/img/dashline.svg" alt="" />
+        <div class="card__item">
+          <div class="card__item-icon">
+            <img src="./assets/img/EOrange.svg" alt="" />
+            <img src="./assets/img/cloudicon.svg" alt="" />
+          </div>
+          <div class="card__item-text">
+            <p>Cloud System</p>
+            <p>Sed rhoncus sit sed tellus donec lorem lectus nunc, ornare</p>
+          </div>
+        </div>
+        <img class="service__dashline" src="./assets/img/dashline.svg" alt="" />
 
-          <div class="card__item">
-            <div class="card__item-icon">
-              <img src="./assets/img/EPurple.svg" alt="" />
-              <img src="./assets/img/supporticon.svg" alt="" />
-            </div>
-            <div class="card__item-text">
-              <p>24/7 Support</p>
-              <p>Sed rhoncus sit sed tellus donec lorem lectus nunc, ornare</p>
-            </div>
+        <div class="card__item">
+          <div class="card__item-icon">
+            <img src="./assets/img/EPurple.svg" alt="" />
+            <img src="./assets/img/supporticon.svg" alt="" />
+          </div>
+          <div class="card__item-text">
+            <p>24/7 Support</p>
+            <p>Sed rhoncus sit sed tellus donec lorem lectus nunc, ornare</p>
           </div>
         </div>
       </div>
@@ -276,7 +276,9 @@
               up and customize workflows for just about anything
             </p>
           </div>
-          <img class="active-icon" src="./assets/img/active.svg" alt="" />
+          <div class="action-icon">
+            <img src="./assets/img/active.svg" alt="" />
+          </div>
           <div class="task__text-countdown">
             <div class="countdown__base">
               <div class="countdown__base-text">
@@ -426,12 +428,13 @@
       <div class="about">
         <div class="about__head">
           <div class="about__head-title">
-            <p>Integrated <strong>designed</strong> for product teams</p>
+            <p>Integrated <strong>designed</strong> for <br />product teams</p>
           </div>
           <div class="about__head-sub">
             <p>
               Exepteur sint occaecat cupidatat non proident, sunt in culpa que
-              official deserunt mollit laborum - semper quis lectus nulla.
+              official deserunt <br />
+              mollit laborum - semper quis lectus nulla.
             </p>
           </div>
           <div class="about__head-btn">
@@ -556,7 +559,7 @@
               <p>Maisis paul</p>
             </div>
             <div class="team__card-bot">
-              <div class="btn"><p>Join Now</p></div>
+              <button class="btn">Join Now</button>
             </div>
           </div>
         </div>
@@ -568,12 +571,12 @@
         <div class="featsub__head">
           <div class="feat__head-title">
             <p>
-              From the <strong>big picture</strong> to every tiny detail, we got
-              you covered.
+              From the <strong>big picture</strong> to <br />
+              every tiny detail, we got you covered.
             </p>
           </div>
           <div class="feat__head-btn">
-            <p>Explore Now</p>
+            <button>Explore Now</button>
           </div>
         </div>
         <div class="featsub__content">
@@ -611,7 +614,10 @@
       <!-- Blog -->
       <div class="blog">
         <div class="blog__title">
-          <p><strong>Refreshing</strong> news for developers and desigers</p>
+          <p>
+            <strong>Refreshing</strong> news for <br />
+            developers and desigers
+          </p>
         </div>
         <div class="blog__content">
           <div class="blog__content-child">
@@ -710,7 +716,7 @@
               <img src="./assets/img/3stars.svg" alt="" />
             </div>
           </div>
-          <div class="testmonial__content">
+          <div class="testmonial__content action">
             <div class="testmonial__content-commna">
               <img src="./assets/img/comma-green.svg" alt="" />
             </div>
@@ -741,9 +747,12 @@
           <div class="footer__head-logo">
             <img src="./assets/img/logo.svg" alt="" />
           </div>
-          <div class="footer__head-text"><p>Ready to get started?</p></div>
-          <div class="footer__head-btn">
-            <p>Get Started</p>
+
+          <div class="footer__head-action">
+            <div class="footer__head-text"><p>Ready to get started?</p></div>
+            <div class="footer__head-btn">
+              <button>Get Started</button>
+            </div>
           </div>
         </div>
         <div class="footer__hline">
